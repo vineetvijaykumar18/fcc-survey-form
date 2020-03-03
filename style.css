@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-image: url("https://cdn.clipart.email/8991f8265e0ce738af113b46948b7723_star-wars-backgrounds-group-81-_1280-720.jpeg");
+
+}
+
+#title {
+    color: white;
+}
+
+#description {
+    color: white;
+}
+
+
+label {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    display: block;
+}
+
+form {
+    background-color: red;
+    padding: 40px 40px 40px 40px;
+}
+
+.form-group {
+    padding: 40px 40px 40px 40px;
+}
+
+input, textarea, select {
+    display: block;
+    width: 100%;
+  }
+
+  input[type="radio"] {
+    margin-left:10px;
+}
+
+
+

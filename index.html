@@ -1,0 +1,63 @@
+<html> 
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <h1 class ="text-center" id="title"> Star Wars Survey</h1>
+    <p class ="text-center" id="description"> Thank you for taking the time to answer questions about Star Wars </p>
+
+    <form id="survey-form">
+        <div class="form-group"> 
+        <label for="name" id="name-label">Name</label><br>
+        <input type="text" clsss="form-control" id="name" placeholder="Enter your name" required><br><br>
+        <label for="email" id="email-label"> Email</label><br>
+        <input type="email" clsss="form-control"  id="email" placeholder="Enter your email" required> <br><br>
+        <label for="number" id="number-label">Age</label><br>
+        <input type="number" clsss="form-control"  id="number" placeholder="Age" min="5" max="200"> <br><br>
+        </div>
+
+        <div class="form-group"> 
+        <p> Which Trilogy did you like the best</p>
+        <label for="Orignal">Original <input type="radio" class="button" id="Original" name="trilogy" value="male"></label>
+        
+        <label for="Prequal">Prequal <input type="radio" class="button" id="Prequal" name="trilogy" value="female"></label>
+        
+        <label for="Sequal">Sequal<input type="radio" class="button" id="Sequal" name="trilogy" value="female"</label> <br>
+        
+        
+        </div>
+     
+        <div class="form-group">
+        <label for="dropdown">Whats your favorite Star Wars Film</label>
+        <select id="dropdown" clsss="form-control" >
+        <option value="phantom-menace">Phantom Menace</option>
+        <option value="attack-of-the-clones">Attack of The Clones</option>
+        <option value="revenge-of-the-sith">Revenge of The Sith</option>
+        <option value="a-new-hope">A New Hope</option>
+        <option value="empire-strikes-back">Empire Strikes Back</option>
+        <option value="return-of-the-jedi">Return of the Jedi</option>
+        <option value="the-force-awakens">The Force Awakens</option>
+        <option value="the-last-jedi">The Last Jedi</option>
+        <option value="rise-of-skywalker">Rise of Skywalker</option>
+        </select>
+        </div>
+
+        
+        <div class="form-group">
+        <p> Favorite Star Wars Characters? <span>(Check all that apply)</span></p>
+        <label>Darth Vader <input name="character" class="button" value="darth vader" type="checkbox" class="input-checkbox" /></label> <br>
+        <label>Luke Skywalker <input name="character" class="button" value="luke skywalker" type="checkbox" class="input-checkbox" /></label> 
+        </div>
+
+        <div class="form-group">
+        <p> Anything else we missed?</p>
+        <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+        </div>
+
+        <input id="submit" type="submit" value="Submit">
+    </form>
+
+</html>
+<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"> </script>
+
+
+
